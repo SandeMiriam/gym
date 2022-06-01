@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="oyuga.dev.picturebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PictureBook">
+        <activity
+            android:name=".Album5"
+            android:exported="false" />
+        <activity
+            android:name=".Album4"
+            android:exported="false" />
+        <activity
+            android:name=".Album3"
+            android:exported="false" />
+        <activity
+            android:name=".Album2"
+            android:exported="false" />
+        <activity
+            android:name=".Album1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
